@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- css start here -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            border: 2px solid black;
+        }
+
+        .main {
+            height: 500px;
+            width: 100%;
+            display: flex;
+            padding: 10px 10px 10px 10px;
+            background-color: aqua;
+            flex-direction: column;
+        }
+
+        div[class*='box'] {
+            background-color: aqua;
+            height: 100px;
+            width: 450px;
+            border: 2px solid black;
+            margin: 10px auto;
+
+        }
+
+        .box-main::before {
+            content: "Original "
+        }
+
+        @media (min-width: 576px) {
+
+            .main {
+                height: 500px;
+                width: 100%;
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                background-color: purple;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            div[class*='box'] {
+                background-color: aqua;
+                height: 150px;
+                width: 250px;
+                border: 2px solid black;
+                margin: 10px auto;
+
+            }
+
+            .box-main::before {
+                content: "576px"
+            }
+
+        }
+
+        @media (min-width: 768px) {
+
+            .main {
+                height: 500px;
+                width: 100%;
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                background-color: blue;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            div[class*='box'] {
+                background-color: aqua;
+                height: 100px;
+                width: 200px;
+                border: 2px solid black;
+                margin: 10% auto;
+
+            }
+
+            .box-main::before {
+                content: "768px "
+            }
+
+        }
+
+        @media (min-width: 992px) {
+
+            .main {
+                height: 500px;
+                width: 100%;
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                background-color: gray;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            div[class*='box'] {
+                background-color: aqua;
+                height: 150px;
+                width: 300px;
+                border: 2px solid black;
+                margin: 10px auto;
+
+            }
+
+            .box-main::before {
+                content: "992px "
+            }
+
+        }
+
+        @media (min-width: 1200px) {
+
+            .main {
+                height: 500px;
+                width: 100%;
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                background-color: green;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            div[class*='box'] {
+                background-color: aqua;
+                height: 150px;
+                width: 150px;
+                border: 2px solid black;
+                margin: 10px auto;
+
+            }
+
+            .box-main::before {
+                content: "1200px "
+            }
+
+        }
+
+        @media (min-width: 1400px) {
+
+            .main {
+                height: 500px;
+                width: 100%;
+                display: flex;
+                padding: 10px 10px 10px 10px;
+                background-color: yellow;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            div[class*='box'] {
+                background-color: aqua;
+                height: 150px;
+                width: 150px;
+                border: 2px solid black;
+                margin: 30px auto;
+
+            }
+
+
+            .box-main::before {
+                content: "1400px "
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+    </div>
+</body>
+
+</html>
