@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 10px solid red; */
+}
+
+.main {
+    width: 100%;
+    height: 700px;
+    background-image: url(background\ images.jpg);
+}
+
+.main-home {
+    width: 100%;
+    height: 300px;
+    /* background-image: url(../Netflix/background\ images.jpg); */
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding: 0 auto;
+}
+
+h2 {
+    color: red;
+    font-size: 30px;
+    margin-left: 90px;
+    font-weight: bolder;
+}
+
+#lang {
+    font-size: 15px;
+    margin: 5px 7px 1px 700px;
+    border-radius: 5px;
+    padding: 6px 36px;
+
+}
+
+.btn {
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.hader {
+    margin: 4px 1px 10px 350px;
+}
+
+.hader>p {
+    /* justify-content: center; */
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+
+.hader>h1 {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 5px -90px 10px;
+    padding: 0 auto;
+}
+
+.hader>h3 {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+    padding: 5px 5px 6px 5px;
+    margin: 10px 5px 5px 160px;
+}
+
+input {
+    padding: 10px 60px 8px;
+    line-height: 20px;
+    font-size: 15px;
+    margin: 13px 10px 13px 563px;
+    /* height: 40px; */
+}
+
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+
+.col-50 {
+    width: 50%;
+    color: white;
+    background-color: black;
+    height: 250px;
+    padding: 180px 190px 13px 132px;
+}
+
+.cols-50 {
+    width: 40%;
+    /* background-color: blue; */
+    height: 300px;
+    margin: -250px 96px 50px 680px;
+    padding: 5px 5px 5px 5px;
+    position: absolute;
+}
+
+#TV {
+    font-size: 50px;
+    font-weight: 800;
+    padding: 10px 10px;
+}
+
+#ON {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 10px;
+}
+
+#mp3 {
+    margin: -261px 11px 18px 85px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    /* top: 100px;
+    right: 150px; */
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+.dwon {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    /* margin:  5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px; */
+}
+
+#Do {
+    font-size: 45px;
+    font-weight: 900;
+    text-align: center;
+    /* pad: 10px 10px 10px 10px; */
+    margin: -260px -371px 37px 100px;
+    ;
+    color: white;
+}
+
+#sa {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin: 6px 7px 7px 430px;
+}
+
+.hs {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: black;
+}
+
+#ds {
+    color: white;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 5px 5px;
+}
+
+#bv {
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 10px;
+}
+
+.er {
+    margin: 90px 0px 0px 95px;
+}
+
+/* .hi{
+    margin: 5px 5px 5px 5px;
+} */
+
+video {
+    margin: 5px 5px 5px 5px;
+}
+
+.vc {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.ss {
+    color: white;
+    margin: 40px 80px 5px 50px;
+    /* padding:  5px 5px 5px 5px; */
+}
+
+#aq {
+    font-size: 45px;
+    font-weight: 900;
+    padding: 5px 5px;
+}
+
+#as {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 10px;
+}
+
+.foter {
+    background-color: black;
+    width: 100%;
+    height: 500px;
+}
+
+.cal>p {
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 18px 8px 11px 31px;
+}
+
+ul li {
+    color: white;
+    display: inline;
+    text-decoration: underline;
+    margin: 55px 262px;
+    padding: 10px 20px;
+}
+
+#lan {
+    font-size: 15px;
+    margin: 5px 7px 1px 130px;
+    border-radius: 5px;
+    padding: 6px 36px;
+    color: white;
+    background-color: black;
+}
+
+p {
+    color: white;
+    margin: 5px 7px 1px 130px;
+    padding: 20px;
+}
