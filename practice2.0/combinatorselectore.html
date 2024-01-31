@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>combinator selecoter</title>
+    <!-- internal css apply here -->
+    <style>
+        /* Decendent selectore */
+        .boss p {
+            font-size: 20px;
+            background-color: brown;
+            color: white;
+        }
+
+        /* child selecter */
+        .junior>p {
+            background-color: black;
+            color: white;
+        }
+
+        /* Abjacent selecoter */
+        .junior+p+p {
+            background-color: crimson;
+            color: khaki;
+        }
+
+        /* gernal sibling selecoter */
+        h1~p {
+            background-color: aqua;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>gernal sibling selecoter</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, ducimus. Odio eius cumque natus harum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, ducimus. Odio eius cumque natus harum.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, ducimus. Odio eius cumque natus harum.</p>
+    <div class="boss">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil perspiciatis consectetur est enim
+            velit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi nihil perspiciatis consectetur est enim
+            velit.</p>
+        <div class="junior">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, alias!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, alias!</p>
+        </div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam odio dolores earum. Error maxime magnam
+            possimus porro obcaecati esse minus voluptate. Deserunt molestiae ut tempore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam odio dolores earum. Error maxime magnam
+            possimus porro obcaecati esse minus voluptate. Deserunt molestiae ut tempore.</p>
+    </div>
+</body>
+
+</html>

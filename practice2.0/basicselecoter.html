@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Selecoters</title>
+    <style>
+        /* universal selectors */
+        *{
+            background-color: black;
+            color: white;
+            font-size: 25px;
+        }
+        /* element selectors */
+        p{
+            background-color: aqua;
+            color: brown;
+            font-size: 20px;
+        }
+        /* id selectors */
+        #had{
+            background-color: blue;
+            color: brown;
+            font-size: 20px;
+        }
+        /* class selectors */
+        .hi{
+            background-color: khaki;
+            color: brown;
+            font-size: 20px;
+        }
+        /* attribute selectore */
+        div[class*='box']{
+            width: 20%;
+            height: 50px;
+            background-color: crimson;
+            margin: 0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab provident at accusamus, hic non.</p>
+    <p id="had">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab provident at accusamus, hic non.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab provident at accusamus, hic non.</p>
+    <p class="hi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab provident at accusamus, hic non.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ab provident at accusamus, hic non.</p>
+    <div class="box"></div>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <div class="box4"></div>
+</body>
+</html>
