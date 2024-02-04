@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive nav bar</title>
+    <!-- css apply here -->
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 20px;
+        }
+        .dsk{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+        }
+        li{
+            list-style: none;
+            /* display: inline; */
+        }
+        input{
+            width: 40px;
+            height: 30px;
+            display: none;
+        }
+        nav{
+            background-color: brown;
+            color: #ffff;
+        }
+    
+        @media (max-width: 576px) {
+        input{
+        display: block;
+      }
+        nav {
+          display: none
+        }
+        input:checked + nav{
+          display: block;
+        }
+      }
+    </style>
+</head>
+<body>
+    <nav class="dsk">
+       <div class="site">
+        <h1>my site</h1>
+       </div>
+       <input type="checkbox" name="" id="">
+       <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>contect</li>
+        <li>help</li>
+        <li>purchase</li>
+       </ul>
+    </nav>
+</body>
+</html>
