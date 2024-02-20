@@ -1,0 +1,9 @@
+@media (max-width: 567px) {
+    .pol {
+        display: none;
+    }
+    input[type*="checkbox"] {
+        display: block;
+        opacity: 0;
+      }
+}

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 10px solid red; */
+    /* border: 10px solid black; */
 }
 
 .main {
@@ -144,7 +144,6 @@ input {
     text-align: center;
     /* pad: 10px 10px 10px 10px; */
     margin: -260px -371px 37px 100px;
-    ;
     color: white;
 }
 
